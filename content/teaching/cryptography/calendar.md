@@ -1,11 +1,6 @@
 ---
 title: "Α31 Κρυπτογραφία"
 iscalendar: true
-info: "../info/"
-calendar: "../calendar/"
-material: "../material/"
-assignments: "../assignments/"
-announcements: "../announcements/"
 ---
 
 ### Ημερολογιο μαθηματος

@@ -20,7 +20,7 @@ title: "Activities"
 :::
 
 :::box
-[10th Greek Algebra and Number Theory Conference](https://sites.google.com/view/gantconference2025/)}
+[10th Greek Algebra and Number Theory Conference](https://sites.google.com/view/gantconference2025/)
 :::
 
 :::box

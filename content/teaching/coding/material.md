@@ -1,11 +1,6 @@
 ---
 title: "Α32 Κωδικοποιηση"
 ismaterial: true
-info: "../info/"
-calendar: "../calendar/"
-material: "../material/"
-assignments: "../assignments/"
-announcements: "../announcements/"
 ---
 
 ### Προτεινομενα συγγραμματα
