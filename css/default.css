@@ -3,6 +3,7 @@
     --box-bg-color: #fffdff;
 }
 
+
 .box{
     background-color: var(--box-bg-color);
 }
@@ -43,6 +44,8 @@
 html {
     color: #1c1c1c;
     width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 body {
@@ -51,6 +54,7 @@ body {
     font-size  : 22px;
     background-color: var(--main-bg-color);
 }
+
 
 nav {
     width: 100%;    
@@ -86,13 +90,13 @@ nav li {
     font-weight: medium;
     font-variant: small-caps;
     float: left;
-/*    padding-right:10px;
-    padding-left:0px;
-    padding-top: 10px;
-    padding-bottom:5px;
-*/
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
     margin-left:0px;
-    margin-right:20px; 
+    margin-right:0px; 
     transition: color 0.3s ease; }
 
 .navbar-end .navbar-item {

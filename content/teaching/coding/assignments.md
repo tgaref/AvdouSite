@@ -1,5 +1,5 @@
 ---
-title: "Α32 Kωδικοποιηση"
+title: "Α32 Κωδικοποίηση"
 isassignments: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Α32 Κωδικοποιηση"
+title: "Α32 Κωδικοποίηση"
 isannouncements: true
 ---
 
