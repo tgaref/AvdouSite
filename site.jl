@@ -82,7 +82,30 @@ function setup(; sitedir = "", publicdir = "public", prefix = "")
             end                
             @route set_extension("html")
         end
+
+        @rule begin
+            @pattern p"content/activities/cryptostudygroup/*.md"
+            @compilers begin
+                expand_shortcodes(sectioncode, render)
+                pandoc_md_to_html
+            end
+            @templates begin
+                ("study.html", ctx)
+                ("base.html", ctx)
+            end
+            @route nice_route
+        end
+
+        @rule begin
+            @pattern p"content/activities/cryptostudygroup/*.html"
+            @getmetadata false
+            @templates begin
+                ("slides-base.html", ctx)
+            end
+            @route identity
+        end
     end
+
     
     build(site)
 end

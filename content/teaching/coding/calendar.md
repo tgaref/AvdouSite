@@ -3,12 +3,10 @@ title: "Α32 Κωδικοποίηση"
 iscalendar: true
 ---
 
-### Ημερολογιο μαθηματος
-
-\newcommand{\wt}{\mathrm{wt}} \newcommand{\an}[1]{\langle #1 \rangle}
+### Ημερολόγιο μαθήματος
 
 \calitem{Εβδομάδα 1: 23/9/2024 - 29/9/2024}{
-Ένας _κώδικας_ μήκους $n$ πάνω από ένα αλφάβητο $\Sigma$ με $q$ σύμβολα
+Ένας _κώδικας_ μήκους $n\newcommand{\wt}{\mathrm{wt}} \newcommand{\an}[1]{\langle #1 \rangle}$ πάνω από ένα αλφάβητο $\Sigma$ με $q$ σύμβολα
 είναι ένα υπόσύνολο $C\subseteq \Sigma^n$. Ορίσαμε την απόσταση Hamming δύο λέξεων
 $x=(x_1,\ldots, x_n), y=(y_1,\ldots, y_n)$ ως 
 \[ \Delta(x,y) = |\{1\leq i\leq n : x_i \neq y_i\}|, \]

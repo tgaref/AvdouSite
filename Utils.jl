@@ -1,5 +1,6 @@
 
 const my_shortcodes = ["calitem", "pubitem"]
+const sectioncode = ["sectionitem"]
 
 function render(::Val{:calitem}, args)
     """\n~~~{=html}\n<div class=\"box calendar-entry\"><p> <div x-data=\"{ open: false }\">\n<a @click=\"open = ! open\">\n<strong>$(args[1])</strong>\n</a>\n<br><br>\n<div x-show=\"open\">\n~~~\n $(args[2])\n~~~{=html}\n</div>\n</div>\n</p></div>\n~~~\n"""
@@ -13,6 +14,10 @@ function render(::Val{:pubitem}, args)
     else
         throw("pubitem accepts 3 or 4 arguments. Received $(length(args))")
     end
+end
+
+function render(::Val{:sectionitem}, args)
+    """\n~~~{=html}\n<div class=\"box calendar-entry\"><p> <div x-data=\"{ open: false }\">\n<a @click=\"open = ! open\">\n<h$(args[1])>$(args[2])</h$(args[1])>\n</a>\n<div x-show=\"open\">\n~~~\n $(args[3])\n~~~{=html}\n</div>\n</div>\n</p></div>\n~~~\n"""
 end
 
 ### Utilities

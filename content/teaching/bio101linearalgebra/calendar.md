@@ -4,13 +4,14 @@ iscalendar: true
 ---
 
 
-### Ημερολογιο μαθηματος
+### Ημερολόγιο μαθήματος
 
-\newcommand{\span}{\mathrm{span}} \newcommand{\id}{\mathrm{id}} \newcommand{\an}[1]{\langle #1\rangle} \newcommand{\R}{\mathbb{R}}
+
 
 \calitem{Εβδομάδα 1: 30/9/2024 - 6/10/2024}{
-Ένα σύστημα $m$ γραμμικών εξισώσεων σε $n$ αγνώστους (ή πιο σύντομα ένα $m\times n$ γραμμικό σύστημα) είναι ένα σύστημα
-εξισώσεων της μορφής
+Ένα σύστημα $m$ γραμμικών εξισώσεων σε $n\newcommand{\span}{\mathrm{span}} \newcommand{\id}{\mathrm{id}} \newcommand{\an}[1]{\langle #1\rangle} \newcommand{\R}{\mathbb{R}}$ αγνώστους (ή πιο σύντομα ένα $m\times n$ γραμμικό σύστημα) είναι ένα σύστημα
+εξισώσεων της μορφής $\newcommand{\ker}{\mathrm{ker}} \newcommand{\img}{\mathrm{im}}$
+
 
 $$ \left\{\begin{array}{ccccccccc} a_{11}\ x_1 &+& a_{12}\ x_2  &+& \cdots &+& a_{1n}\ x_n &=& b_1 \\  
   a_{21}\ x_1&+& a_{22}\ x_2&+&\cdots &+& a_{2n}\ x_n &=& b_2\\ 
@@ -221,6 +222,7 @@ _μη τετριμμένο_ τρόπο (ο τετριμμένος είναι $0 
 πλήθος στοιχείων, που ονομάζεται _διάσταση_ του $V$ και συμβολίζεται $\dim V$.
 
 Αν $U\leq V$ τότε 
+
  - $\dim U \leq \dim V$,
  - $\dim U = 0$ αν και μόνο αν $U = \{0\}$ και 
  - $\dim U = \dim V$ αν και μόνο αν $U = V$.
@@ -273,9 +275,6 @@ $$ L(v_j) = a_{1j} w_1 + \cdots + a_{mj} w_m,\ \ \ j=1,\ldots, n.$$
 **Διαβάστε:** Παρ. 4.1 από το βιβλίο [1].  
 **Ασκήσεις:** [3ο Φυλλάδιο](../LinearAlgebra-2024-3.pdf) (Ημ. παράδοσης 19/11/2024)
 }
-
-\newcommand{\ker}{\mathrm{ker}}
-\newcommand{\img}{\mathrm{im}}
 
 \calitem{Εβδομάδα 7: 11/11/2024 - 17/11/2024}{
 Θεωρούμε τους χώρους $\R^n, \R^m, \R^k$ και τις βάσεις $\mathcal{A} ,\mathcal{B}, \mathcal{C}$ αντίστοιχα.
